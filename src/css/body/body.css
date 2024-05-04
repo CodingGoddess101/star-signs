@@ -1,0 +1,24 @@
+body {
+  font-family: "calibri", arial;
+  height: 1000px;
+  background: linear-gradient(-25deg, #01e3e6, #019396, #018386);
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1281px) {
+  section {
+    width: 1200px;
+    color: #eee;
+  }
+  section .main-heading {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 45px;
+  }
+  section .description {
+    width: 650px;
+    margin: 10px auto;
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=body.css.map */

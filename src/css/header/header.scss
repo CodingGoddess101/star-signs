@@ -1,0 +1,36 @@
+$fullwidth: '100%';
+$lineardeepBlue: linear-gradient(-25deg, #01e3e6, #019396, #018386);
+$fit_content: fit-content;
+$margin_x_10: 10px;
+$single_auto: auto;
+$zero_universal: 0px;
+$width_10: 10px;
+$width_20: 20px;
+$width_30: 30px;
+$width_40: 40px;
+$width_50: 50px;
+$width_60: 60px;
+$width_80: 80px;
+$width_100: 100px;
+$width_150: 150px;
+$width_200: 200px;
+$width_250: 250px;
+$width_300: 300px;
+$width_350: 350px;
+$width_400: 400px;
+$width_450: 450px;
+$width_500: 500px;
+$width_550: 550px;
+$width_600: 600px;
+$width_650: 650px;
+
+@media screen and (min-width: 1281px) {
+    header {
+        width: $fullwidth;
+
+        p {
+            width: $fit_content;
+            margin: $margin_x_10 $single_auto;
+        }
+    }
+}
