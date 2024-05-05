@@ -1,4 +1,3 @@
-import React from 'react'
 import '../css/footer/footer.css'
 
 const Dates = () => {
@@ -46,7 +45,6 @@ const Dates = () => {
             break;
         default: 'Month settings not correct'
     }
-
 
     if (date === 1 || date === 21 || date === 31) {
         currentdaytype = 'st'

@@ -1,24 +1,111 @@
 body {
   font-family: "calibri", arial;
-  height: 1000px;
-  background: linear-gradient(-25deg, #01e3e6, #019396, #018386);
+  height: -moz-fit-content;
+  height: fit-content;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  background: linear-gradient(-130deg, #011316, #016366, #011316);
   background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 1281px) {
-  section {
+  main {
     width: 1200px;
     color: #eee;
+    margin: 10px auto;
   }
-  section .main-heading {
+  main section .main-heading {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 30px auto 10px;
+    font-size: 45px;
+  }
+  main section .image-container {
+    margin: 10px auto;
+    width: 800px;
+  }
+  main section .image-container .image {
+    width: 800px;
+    height: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 20px;
+  }
+  main section .zodiac-heading {
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 30px;
+    margin: 20px auto 20px;
+  }
+  main section .zodiac-description {
+    width: 800px;
+    margin: 10px auto;
+    font-size: 25px;
+  }
+  main section .zodiac-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0px auto;
+    margin: 40px auto 20px;
+  }
+  main section .zodiac-container .zodiac-elements {
+    border: 2px solid #FFF;
+    margin: 20px auto 10px;
+    border-radius: 10px;
+    width: 450px;
+  }
+  main section .zodiac-container .zodiac-elements .zodiac-element {
+    width: 450px;
+  }
+  main section .zodiac-container .zodiac-elements .zodiac-element .zodiac-heading {
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 30px;
+    margin: 20px auto 20px;
+  }
+  main section .zodiac-container .zodiac-elements .zodiac-element .zodiac-description {
+    margin: 10px auto;
+    padding: 0px 20px;
     width: -moz-fit-content;
     width: fit-content;
     margin: 10px auto;
-    font-size: 45px;
+    font-size: 20px;
   }
-  section .description {
-    width: 650px;
-    margin: 10px auto;
-    font-size: 25px;
+  main section .zodiac-container .zodiac-elements:nth-child(1) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(2) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(3) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(4) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(5) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(6) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(7) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(8) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(9) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(10) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(11) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
+  }
+  main section .zodiac-container .zodiac-elements:nth-child(12) {
+    background: linear-gradient(-130deg, #01e3e6, #01c3e6, #018386, #018386, #018386, #018386);
   }
 }/*# sourceMappingURL=body.css.map */

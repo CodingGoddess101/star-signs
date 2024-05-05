@@ -4,12 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "star-signs": "vite",
-    "build": "vite build",
+    "star-signs": "vite && dotenv -e .env react-scripts start",
+    "build": "vite build && dotenv -e .env react-scripts build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google-cloud/translate": "^8.2.0",
+    "dotenv": "^16.4.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
