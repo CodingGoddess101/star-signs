@@ -1,0 +1,11 @@
+@media screen and (min-width: 1281px) {
+  footer {
+    width: "100%";
+  }
+  footer p {
+    font-size: 22px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 10px auto;
+  }
+}/*# sourceMappingURL=footer.css.map */
